@@ -1,5 +1,58 @@
+body
+{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
 .App {
   text-align: center;
+}
+
+.tablasContenedor
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.formContenedor
+{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+}
+.formContenedor p
+{
+  font-size: 50px;
+}
+.formContenedor input
+{
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 50px;
+  color: #333;
+  text-align: center;
+}
+.formContenedor button
+{
+  width: 230px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-size: 25px;
+  margin-top: 15px;
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+#btnGenerar:disabled
+{
+  background: gray;
 }
 
 .App-logo {
