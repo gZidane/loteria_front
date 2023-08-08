@@ -33,7 +33,7 @@ function App() {
 
     btnGenerar.setAttribute('disabled', true);
 
-    // getDatosTablas(cantidadTablas);
+    getDatosTablas(cantidadTablas);
   }
 
   
